@@ -89,6 +89,11 @@ body {
   font-size: 36px;
 }
 
+.navbar-brand:hover {
+  background-color: #ffffff;
+  color: #4aaaa5;
+}
+
 .navbar {
   height: 80px;
   background: #ffffff;
@@ -108,17 +113,21 @@ body {
   padding-top: 30px;
 }
 
-h1, .navbar-brand {
+h1, .navbar-brand, .panel-title {
   color: #4aaaa5;
   font-family: Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 2em;
 }
 
 .panel-title {
-  color: #4aaaa5;
   background-color: #ffffff;
   padding: 20px;
   line-height: 22px;
   border-bottom: 1px solid #eee;
+  font-size: 1.17em;
+  font-weight: bold;
+  text-align: center;
 }
 
 .panel-heading {
